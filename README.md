@@ -3,7 +3,7 @@
       <img src="https://raw.githubusercontent.com/TheRandomMelon/Histacom2/master/Histacom2/Resources/TitleScreen/Histacom2_Logo.png" style="border: 0;">
   </p>
   <p>
-    ![Build Histacom](https://github.com/TheRandomMelon/Histacom/workflows/Build%20Histacom/badge.svg)
+    <img src="https://github.com/TheRandomMelon/Histacom/workflows/Build%20Histacom/badge.svg" style="border: 0;">
     <a href="https://discord.gg/CeBBXWN"><img src="https://img.shields.io/discord/562604068493852675.svg?colorB=7289DA&label=discord" style="border: 0;"></a>
     <img src="https://img.shields.io/github/repo-size/TheRandomMelon/Histacom.svg" style="border: 0;">
     <a href="https://github.com/TheRandomMelon/Histacom/issues"><img src="https://img.shields.io/github/issues/TheRandomMelon/Histacom.svg" style="border: 0;"></a>
