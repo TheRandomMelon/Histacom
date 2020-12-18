@@ -28,5 +28,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run the build file
         run: |
-              cd $GITHUB_WORKSPACE
-              call publish Histacom win-x64 Release
+              cmd.exe /c $GITHUB_WORKSPACE\publish-win64.bat
