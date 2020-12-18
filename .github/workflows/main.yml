@@ -30,8 +30,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run the build file
         run: |
-              & .\publish-win64.bat
-              
+              publish-win64.bat
+        shell: cmd
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
@@ -40,4 +40,4 @@ jobs:
           title: "Histacom 2.0 Latest Development Build"
           files: |
             LICENSE
-            publish/win-x64/Releases/*.*
+            publish/win-x64/Release/**/*
