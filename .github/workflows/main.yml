@@ -31,3 +31,13 @@ jobs:
       - name: Run the build file
         run: |
               & .\publish-win64.bat
+              
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.RELEASE_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Histacom 2.0 Latest Development Build"
+          files: |
+            LICENSE
+            publish/win-x64/Releases/*.*
