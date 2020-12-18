@@ -29,4 +29,4 @@ jobs:
       - name: Run the build file
         run: |
               cd $GITHUB_WORKSPACE
-              ./publish-win64.bat
+              call publish Histacom win-x64 Release
