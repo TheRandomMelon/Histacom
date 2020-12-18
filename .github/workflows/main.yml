@@ -32,10 +32,11 @@ jobs:
         run: |
               publish-win64.bat
         shell: cmd
-      - name: Copy License
-        run: copy LICENSE publish\win-x64\Release
       - name: Zip Windows x64 build
-        run: zip -r win-x64.zip publish/win-x64/Release
+        uses: papeloto/action-zip@v1
+        with:
+          files: publish/win-x64/Release/ LICENSE
+          dest: win-x64.zip
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
