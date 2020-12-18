@@ -1,3 +1,3 @@
 @echo off
 call publish Histacom win-x64 Release
-echo %ERRORLEVEL%
+if %errorlevel% neq 0 exit /b %errorlevel%
