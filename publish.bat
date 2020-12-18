@@ -38,6 +38,7 @@ set "PUBLISH_DIR=%PUBLISH_DIR%%RID%\%CONFIGURATION%\"
 
 pushd %MAIN_PROJECT_DIR%
 dotnet publish -c %CONFIGURATION% -r %RID% -property:Platform=%Platform%;TargetOS=%TARGETOS%
+if %errorlevel% neq 0 exit /b %errorlevel%
 popd
 rmdir /s /q %PUBLISH_DIR%
 mkdir %PUBLISH_DIR%
