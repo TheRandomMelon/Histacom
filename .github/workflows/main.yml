@@ -28,4 +28,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run the build file
         run: |
-              cmd.exe /c dir
+              cmd.exe /c publish-win64.bat
