@@ -32,6 +32,10 @@ jobs:
         run: |
               publish-win64.bat
         shell: cmd
+      - name: Copy License
+        run: copy LICENSE publish\win-x64\Release
+      - name: Zip Windows x64 build
+        run: zip -r win-x64.zip publish/win-x64/Release
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
@@ -39,5 +43,4 @@ jobs:
           prerelease: true
           title: "Histacom 2.0 Latest Development Build"
           files: |
-            LICENSE
-            publish/win-x64/Release/**/*
+            win-x64.zip
