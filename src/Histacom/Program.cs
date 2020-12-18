@@ -10,6 +10,7 @@ namespace Histacom
 #if DEBUG
             App.LogDebug = true;
 #endif
+ethzttrzjrztjtzkjtuk
 
             using var mainApp = new MainApp();
             var exitCode = mainApp.Run();
