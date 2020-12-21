@@ -17,7 +17,7 @@ Histacom is a C# (SDL2) version of the PC game Histacom, released by 12padams in
 * Add more story elements.
 
 ## Building
-Histacom 2 is currently being developed in Microsoft Visual Studio 2017. Visual Studio 2015 has also been proven to work. If you are using a different IDE, please do so with caution. We cannot guarantee the stability of other IDEs.
+Histacom is currently being developed in Microsoft Visual Studio 2019. If you are using a different IDE, please do so with caution. We cannot guarantee the stability of other IDEs.
 
 Load the ``.sln`` project file into Visual Studio and compile. No further steps are required. This list may grow in the future.
 
