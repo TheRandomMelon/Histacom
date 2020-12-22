@@ -25,7 +25,7 @@ Load the ``.sln`` project file into Visual Studio and compile. No further steps 
 
 Discord server: https://discord.gg/CeBBXWN (You can also click on the dark blue Discord Badge)
 
-Download the latest build on GitHub Releases here: https://github.com/TheRandomMelon/Histacom/releases/tag/latest (You can also use the AppVeyor badge)
+Download the latest build on GitHub Releases here: https://github.com/TheRandomMelon/Histacom/releases/tag/latest
 
 ## Documentation
 I'm currently still considering on whether or not we will need a wiki-type page. Please let me know what you think on the Discord server linked above!
